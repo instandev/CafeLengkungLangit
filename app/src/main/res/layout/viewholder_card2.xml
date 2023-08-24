@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/jumlah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/monserrat_semi_bold"
+        android:gravity="center"
+
+        android:textColor="@color/black"
+        android:textSize="5pt" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.7"
+        android:fontFamily="@font/monserrat_semi_bold"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="5pt" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:fontFamily="@font/monserrat_semi_bold"
+        android:gravity="left"
+        android:text="Rp54.000"
+        android:textColor="@color/black"
+        android:textSize="5pt" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/disc10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:fontFamily="@font/monserrat_semi_bold"
+        android:gravity="center"
+        android:background="@drawable/bordertiketemail"
+        android:text="10%"
+        android:textColor="@color/black"
+        android:textSize="7pt" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/disc20"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:fontFamily="@font/monserrat_semi_bold"
+        android:gravity="center"
+        android:background="@drawable/bordertiketemail"
+        android:text="20%"
+        android:textColor="@color/black"
+        android:textSize="7pt" />
+
+    <ImageView
+        android:id="@+id/hapus"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/monserrat_semi_bold"
+        android:gravity="left"
+        android:src="@drawable/ic_delete"
+        android:textColor="@color/black"
+        android:textSize="6pt"
+        app:tint="@color/c1" />
+
+</LinearLayout>

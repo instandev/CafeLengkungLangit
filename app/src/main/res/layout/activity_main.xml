@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/back"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_back" />
+            <TextView
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:id="@+id/nama"
+                android:text="nama"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:textSize="6pt"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+
+        <Spinner
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/daftaremail"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:ignore="DisableBaselineAlignment">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/refresh"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/ic_refresh"
+                    android:fontFamily="@font/monserrat_semi_bold"
+                    android:gravity="center"
+                    android:backgroundTint="@color/c1"
+                    android:textColor="@color/c1"
+                    android:textSize="8pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cari1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <EditText
+                    android:id="@+id/cari"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/card_background"
+                    android:gravity="center"
+                    android:hint="cari barang"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textAllCaps="false"
+                    tools:ignore="Autofill,TextFields,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/btncari1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/btncari"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/ic_search"
+                    android:fontFamily="@font/monserrat_semi_bold"
+                    android:gravity="center"
+                    android:textColor="@color/c1"
+                    android:textSize="8pt" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+            <TextView
+                android:id="@+id/coffee"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="coffee"
+                android:gravity="center"
+                android:fontFamily="@font/donjose_black"
+                android:textColor="@color/c1"
+                android:background="@drawable/bordertiketemail"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/tnd"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="T &amp; D"
+                android:gravity="center"
+                android:fontFamily="@font/donjose_black"
+                android:textColor="@color/c7"
+                android:background="@drawable/bordertiketemail"
+                android:layout_height="40dp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/mct"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Mocktail"
+                android:gravity="center"
+                android:fontFamily="@font/donjose_black"
+                android:textColor="@color/c7"
+                android:background="@drawable/bordertiketemail"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/sign"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="signa"
+                android:gravity="center"
+                android:fontFamily="@font/donjose_black"
+                android:textColor="@color/c7"
+                android:background="@drawable/bordertiketemail"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/lain"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="lainnya"
+                android:gravity="center"
+                android:fontFamily="@font/donjose_black"
+                android:textColor="@color/c7"
+                android:background="@drawable/bordertiketemail"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tiketprahu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/bordertiket"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tiket"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="@font/donjose_black"
+                android:gravity="center"
+                android:text="Tiket Prahu Kaca"
+                android:textColor="@color/c1"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/tiketayunan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/bordertiket"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tiket1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="@font/donjose_black"
+                android:gravity="center"
+                android:text="Tiket ayunan"
+                android:textColor="@color/c1"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <ListView
+            android:layout_marginTop="10dp"
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="-5dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="-5dp"
+        android:background="@drawable/bordertiketemail"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/home"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_home"
+                android:backgroundTint="@color/c1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/plus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_cart1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/riwayat"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_history1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

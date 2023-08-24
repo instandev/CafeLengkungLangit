@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrintNota">
+
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/monserrat_semi_bold"
+        android:gravity="center"
+        android:text="Cafe Langit"
+        android:textColor="@color/black"
+        android:textSize="8pt" />
+
+    <TextView
+        android:layout_below="@+id/nama"
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/monserrat_semi_bold"
+        android:gravity="center"
+        android:text="Cafe Langit"
+        android:textColor="@color/black"
+        android:textSize="5pt" />
+
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bar"
+        android:layout_below="@+id/order"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp" />
+
+    <View
+        android:id="@+id/bar"
+        android:layout_above="@+id/hrgttl"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/c1" />
+
+
+    <LinearLayout
+        android:id="@+id/hrgttl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btm"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/jumlahsub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="left"
+                android:text="Subtotal"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+
+            <TextView
+                android:id="@+id/hargasub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="left"
+                android:text="Rp18.000"
+                android:textColor="@color/black"
+                android:textSize="5pt"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/totaluangsub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="left"
+                android:text="Rp0"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+
+            <TextView
+                android:id="@+id/disc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+
+            <TextView
+                android:id="@+id/hargadisc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="left"
+                android:text="Rp18.000"
+                android:textColor="@color/black"
+                android:textSize="5pt"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/totaluangdisc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="left"
+                android:text="Rp0"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/jumlah1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="left"
+                android:text="Total Bayar"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+
+            <TextView
+                android:id="@+id/harga"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="left"
+                android:text="Rp18.000"
+                android:textColor="@color/black"
+                android:textSize="5pt"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/totaluang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:fontFamily="@font/monserrat_semi_bold"
+                android:gravity="left"
+                android:text="Rp0"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/dis20rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terapkan disc Rp20.000"
+            android:textColor="@color/black"
+            android:background="@drawable/bordertiketemail"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/coba"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/coba1"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="8pt" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/printer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/print"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bordertiketemail"
+            android:fontFamily="@font/donjose_black"
+            android:gravity="center"
+            android:text="Print"
+            android:textColor="@color/black"
+            android:textSize="8pt" />
+
+
+        <LinearLayout
+            android:id="@+id/prahukaca"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="30dp"
+                android:layout_weight="7"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/nomorantri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/monserrat_semi_bold"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="6pt" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/username_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp">
+
+                    <EditText
+                        android:id="@+id/jumlah"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/monserrat_semi_bold"
+                        android:gravity="center"
+                        android:hint="Jumlah tiket"
+                        android:importantForAutofill="no"
+                        android:inputType="textNoSuggestions|number"
+                        android:textColorHighlight="@color/c1"
+                        android:textSize="7pt"
+                        tools:ignore="UnusedAttribute" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="3"
+                android:background="@drawable/backlogin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/prin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/donjose_black"
+                    android:gravity="center"
+                    android:text="print"
+                    android:textColor="@color/white"
+                    android:textSize="7pt" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="-5dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="-5dp"
+        android:background="@drawable/bordertiketemail"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/home"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_home1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/plus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/c1"
+                android:background="@drawable/ic_cart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/riwayat"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_history1" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

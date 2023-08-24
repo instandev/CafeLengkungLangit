@@ -1,0 +1,312 @@
+{
+  "project_info": {
+    "project_number": "1079658840455",
+    "firebase_url": "https://lengkung-langit-default-rtdb.firebaseio.com",
+    "project_id": "lengkung-langit",
+    "storage_bucket": "lengkung-langit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079658840455:android:6b7ac4354936b2818e1322",
+        "android_client_info": {
+          "package_name": "com.baguslangit.admintiket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVke_oQylYmqt9CtZvi0oUPCJdXpqnT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079658840455:android:9e1d830c790092228e1322",
+        "android_client_info": {
+          "package_name": "com.baguslangit.aplikasitenant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079658840455-oci648db3er6sighdhsqf5iqcc437t37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baguslangit.aplikasitenant",
+            "certificate_hash": "83712e6549295fc0d5e7f41d79c0f3821739bb6b"
+          }
+        },
+        {
+          "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVke_oQylYmqt9CtZvi0oUPCJdXpqnT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079658840455:android:155c70759b5c78598e1322",
+        "android_client_info": {
+          "package_name": "com.baguslangit.cafelengkunglangit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVke_oQylYmqt9CtZvi0oUPCJdXpqnT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079658840455:android:22282977f25a5d148e1322",
+        "android_client_info": {
+          "package_name": "com.baguslangit.lengkunglangit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079658840455-jmi1uifbjrcuicsvd2pmiago89onubf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baguslangit.lengkunglangit",
+            "certificate_hash": "83712e6549295fc0d5e7f41d79c0f3821739bb6b"
+          }
+        },
+        {
+          "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVke_oQylYmqt9CtZvi0oUPCJdXpqnT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079658840455:android:39d8d7a7a31fb6ab8e1322",
+        "android_client_info": {
+          "package_name": "com.baguslangit.lengkunglangittiket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079658840455-4rpbpgfdn6s56ojiba0t92b44d31gqd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baguslangit.lengkunglangittiket",
+            "certificate_hash": "83712e6549295fc0d5e7f41d79c0f3821739bb6b"
+          }
+        },
+        {
+          "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVke_oQylYmqt9CtZvi0oUPCJdXpqnT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079658840455:android:439a6006e5c118188e1322",
+        "android_client_info": {
+          "package_name": "com.baguslangit.scanerbarcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079658840455-rd4c3q0rmi3fd971durgid1ch2n8uljd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baguslangit.scanerbarcode",
+            "certificate_hash": "83712e6549295fc0d5e7f41d79c0f3821739bb6b"
+          }
+        },
+        {
+          "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVke_oQylYmqt9CtZvi0oUPCJdXpqnT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079658840455:android:d05b41ffafd4202c8e1322",
+        "android_client_info": {
+          "package_name": "com.baguslangit.tenant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVke_oQylYmqt9CtZvi0oUPCJdXpqnT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079658840455:android:ab52f76768a1f3c18e1322",
+        "android_client_info": {
+          "package_name": "com.baguslangit.tiketoffline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVke_oQylYmqt9CtZvi0oUPCJdXpqnT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079658840455:android:40248121c99fcd5b8e1322",
+        "android_client_info": {
+          "package_name": "com.baguslangit.tiketonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079658840455-pr89k2tbtf9hmutedccsjl13muq257bh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baguslangit.tiketonline",
+            "certificate_hash": "83712e6549295fc0d5e7f41d79c0f3821739bb6b"
+          }
+        },
+        {
+          "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVke_oQylYmqt9CtZvi0oUPCJdXpqnT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079658840455-9pckqqvht4fmavcr490pc00rioe7844m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
